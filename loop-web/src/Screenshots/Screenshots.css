@@ -1,0 +1,17 @@
+.screen{
+    width: 20%;
+}
+.screenHolder{
+    width:100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 1%;
+}
+.upper{
+    left: 20%;
+    position: absolute;
+}
+.lower{
+    position: relative;
+    z-index: -1;
+}
