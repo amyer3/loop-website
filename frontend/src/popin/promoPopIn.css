@@ -1,0 +1,52 @@
+.case{
+    max-width: 380px;
+    min-height: 5vmin;
+    max-height: 400px;
+    position: fixed;
+    background: whitesmoke;
+    z-index: 5;
+    right: 0;
+    bottom: 0;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    color: white;
+    width: 85%;
+    border: solid 10px white;
+    display: inline-block;
+    background: linear-gradient(45deg, rgba(121,9,104,1) 0%, rgba(224,18,193,1) 52%, rgba(255,243,156,1) 100%);
+
+}
+.title{
+    font-size: calc(10px + 3vmin);
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+.loc{
+    font-size: calc(10px + 2vmin);
+    margin-bottom: 5%;
+
+}
+.mainText{
+    font-size: calc(10px + 1vmin);
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.form{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "e s";
+}
+input{
+    display: inline-block;
+}
+.email{
+    float: left;
+    grid-area: e;
+}
+.submit{
+    float: right;
+    grid-area: s;
+}
